@@ -1,0 +1,37 @@
+Lesson 3
+
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+1. If we are working from multiple computers.
+2. If multiple people are working on the same repository.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+There may be conflicts between the current work I'm doing and the
+    remote repository. There may be changes to the same part of the code.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+Branch: Created on a single repository.
+Clone: Copy an entire repository from a local/remote location.
+Fork: Clone a repository in GitHub itself.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+Offline access to previous commit history.
+We can merge this remote state with our local state and then push the
+updated state on GitHub.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    It would be easier to communicate on piazza and harder on atom.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    You could want to make changes that only effect one copy of the repository.
